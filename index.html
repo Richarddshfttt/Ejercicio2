@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta charset="UTF-8" />
+        <title>Ejercicio de formulario</title>
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" name="solucionFormulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlength="30">
+        
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="correo@empresa.com" maxlength="30">
+        
+        <p>
+
+        <label for="asunto">Asunto</label>
+        <select name="asunto" id="asunto">
+            <option value="Informacion web">Pedir Informacion Web</option>
+            <option value="CitaPrevia">Solicitar Cita Previa</option>
+            <option value="Otros">Otros</option>
+        </select>
+    
+        
+
+        <label for="group">Como nos has conocido?</label>
+        <p>
+        <div class="group">
+            <input type="checkbox" value="amigo" id="amigo">
+            <label for="amigo">Un Amigo</label>
+            <br>
+            <input type="checkbox" value="google" id="googleando">
+            <label for="google">Googleando</label>
+            <br>
+            <input type="checkbox" value="redsocial" id="redsocial">
+            <label for="redsocial">Red Social</label>
+            <br>
+            <input type="checkbox" value="otros" id="otros">
+            <label for="otros">Otros</label>
+        </div>
+        
+
+        <label for="mensaje">Escribe tu mensaje</label>
+        <textarea name="mensaje" id="mensaje" maxlength="300"></textarea>
+        <div class="group2">
+        <input type="checkbox" value="Acepta" id="rgpd" required><label for="rgpd" class="rgpd">He leido y acepto el <a href="#" target="_blanck">aviso legal y la politica de privacidad</a></label>
+    </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
